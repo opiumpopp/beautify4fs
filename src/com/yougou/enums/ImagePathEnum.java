@@ -1,9 +1,9 @@
 package com.yougou.enums;
 
 public enum ImagePathEnum {
-	ORIGINAL_PATH("E:\\美化包原始图片\\","ORIGINAL"),
-	CANVAS_PATH("E:\\美化包改变画布后的图片\\","CANVAS"),
-	CROP_PATH("E:\\美化包切图后的图片\\","CROP");
+	ORIGINAL_PATH("ORIGINAL","E:\\美化包原始图片\\"),
+	CANVAS_PATH("CANVAS","E:\\美化包改变画布后的图片\\"),
+	CROP_PATH("CROP","E:\\美化包切图后的图片\\");
 	
 	private String key;
 	private String desc;

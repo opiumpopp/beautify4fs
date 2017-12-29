@@ -23,11 +23,11 @@ public class Im4JavaUtil {
 	public static void changeCanvasSize() {
 		for(int i = 1;i < 7;i++) {
 			IMOperation im = new IMOperation();
-			im.addImage(ImagePathEnum.ORIGINAL_PATH.getKey() + i + ".jpg");
+			im.addImage(ImagePathEnum.ORIGINAL_PATH.getDesc() + i + ".jpg");
 			im.addRawArgs("-define","distort:viewport=2048x1024+0+0");
 			im.addRawArgs("-virtual-pixel","white");
 			im.addRawArgs("-distort","SRT","0","+repage");
-			im.addImage(ImagePathEnum.CANVAS_PATH.getKey() + i + ".jpg");
+			im.addImage(ImagePathEnum.CANVAS_PATH.getDesc() + i + ".jpg");
 			ConvertCmd cmd = new ConvertCmd();
 			cmd.setSearchPath(System.getenv("IM_HOME"));
 			try {
@@ -46,8 +46,8 @@ public class Im4JavaUtil {
 		for(int i = 1;i < 7;i++) {
 			IMOperation im = new IMOperation();
 			im.addRawArgs("-crop","1024x1024");
-			im.addImage(ImagePathEnum.CANVAS_PATH.getKey() + i + ".jpg");
-			im.addImage(ImagePathEnum.CROP_PATH.getKey() + i + ".jpg");
+			im.addImage(ImagePathEnum.CANVAS_PATH.getDesc() + i + ".jpg");
+			im.addImage(ImagePathEnum.CROP_PATH.getDesc() + i + ".jpg");
 			ConvertCmd cmd = new ConvertCmd();
 			cmd.setSearchPath(System.getenv("IM_HOME"));
 			try {
