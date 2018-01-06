@@ -1,5 +1,7 @@
 package com.yougou.streetball;
 
+import java.io.File;
+
 import org.im4java.core.ConvertCmd;
 import org.im4java.core.IMOperation;
 
@@ -13,6 +15,10 @@ import com.yougou.enums.ImagePathEnum;
 public class Im4JavaUtil {
 	
 	public static void main(String[] args) {
+		File dir = new File(ImagePathEnum.CROP_PATH.getDesc());
+		if(!dir.exists()) {
+			dir.mkdir();
+		}
 		cropImage();
 	}
 
