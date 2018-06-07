@@ -1,7 +1,13 @@
 package com.yougou.enums;
 
 public enum ImagePathEnum {
+	/**
+	 * E:\\美化包原始图片\\
+	 */
 	ORIGINAL_PATH("ORIGINAL","E:\\美化包原始图片\\"),
+	/**
+	 * E:\\美化包切图后的图片\\
+	 */
 	CROP_PATH("CROP","E:\\美化包切图后的图片\\");
 	
 	private String key;
