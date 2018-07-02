@@ -43,6 +43,11 @@ public class Im4JavaUtil {
 			}
 		}
 		System.out.println("图片已经切好了");
+		
+		int a = 3;
+		int b = 2;
+		int sum = a + b;
+		System.out.println(sum);
 	}
 	
 }
