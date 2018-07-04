@@ -1,6 +1,8 @@
 package com.yougou.streetball;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.im4java.core.ConvertCmd;
 import org.im4java.core.IMOperation;
@@ -48,6 +50,11 @@ public class Im4JavaUtil {
 		int b = 2;
 		int sum = a + b;
 		System.out.println(sum);
+		
+		List<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
 		
 	}
 	
