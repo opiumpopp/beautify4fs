@@ -22,10 +22,6 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
-		int a = 3;
-		int b = 2;
-		int sum = a + b;
-		System.out.println(sum);
 	}
 
 	/**
