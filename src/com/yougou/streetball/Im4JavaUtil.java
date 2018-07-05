@@ -22,7 +22,6 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
-		System.out.println("一脸懵逼");
 	}
 
 	/**
