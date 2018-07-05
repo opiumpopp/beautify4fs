@@ -22,6 +22,7 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
+		System.out.println("瞎鸡巴说");
 	}
 
 	/**
