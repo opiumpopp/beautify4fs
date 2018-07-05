@@ -22,6 +22,7 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
+		System.out.println("朝娃子啊哈哟");
 	}
 
 	/**
