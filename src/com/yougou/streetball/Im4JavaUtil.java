@@ -45,17 +45,6 @@ public class Im4JavaUtil {
 			}
 		}
 		System.out.println("图片已经切好了");
-		
-		int a = 3;
-		int b = 2;
-		int sum = a + b;
-		System.out.println(sum);
-		
-		List<String> list = new ArrayList<>();
-		list.add("a");
-		list.add("b");
-		list.add("c");
-		
 	}
 	
 }
