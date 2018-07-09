@@ -22,11 +22,11 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
-		//两个整数求和
-		int a = 3;
-		int b = 2;
-		int sum = a + b;
-		System.out.println(sum);
+		//list集合的使用
+		List<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
 	}
 
 	/**
