@@ -22,6 +22,11 @@ public class Im4JavaUtil {
 			dir.mkdir();
 		}
 		cropImage();
+		//list集合的使用
+		List<String> list = new ArrayList<>();
+		list.add("a");
+		list.add("b");
+		list.add("c");
 	}
 
 	/**
