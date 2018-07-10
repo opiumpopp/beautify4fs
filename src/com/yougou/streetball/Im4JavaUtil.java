@@ -23,10 +23,10 @@ public class Im4JavaUtil {
 		}
 		cropImage();
 		//list集合的使用
-		List<String> list = new ArrayList<>();
-		list.add("a");
-		list.add("b");
-		list.add("c");
+		List<Integer> list = new ArrayList<>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
 	}
 
 	/**
