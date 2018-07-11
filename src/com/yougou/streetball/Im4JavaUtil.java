@@ -27,6 +27,11 @@ public class Im4JavaUtil {
 		list.add("a");
 		list.add("b");
 		list.add("c");
+		//两个整数求和
+		int a = 3;
+		int b = 2;
+		int sum = a + b;
+		System.out.println(sum);
 	}
 
 	/**
