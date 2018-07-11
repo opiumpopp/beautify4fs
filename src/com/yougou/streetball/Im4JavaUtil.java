@@ -27,11 +27,6 @@ public class Im4JavaUtil {
 		int b = 2;
 		int sum = a + b;
 		System.out.println(sum);
-		//list集合的使用
-		List<Integer> list = new ArrayList<>();
-		list.add(1);
-		list.add(2);
-		list.add(3);
 	}
 
 	/**
