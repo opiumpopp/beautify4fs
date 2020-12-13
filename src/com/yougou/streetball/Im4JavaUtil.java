@@ -1,12 +1,11 @@
 package com.yougou.streetball;
 
-import cn.hutool.core.util.ImageUtil;
-import com.yougou.enums.ImagePathEnum;
+import java.io.File;
+
 import org.im4java.core.ConvertCmd;
 import org.im4java.core.IMOperation;
 
-import java.awt.*;
-import java.io.File;
+import com.yougou.enums.ImagePathEnum;
 
 /**
  * 
@@ -16,15 +15,11 @@ import java.io.File;
 public class Im4JavaUtil {
 	
 	public static void main(String[] args) {
-		/*File dir = new File(ImagePathEnum.CROP_PATH.getDesc());
+		File dir = new File(ImagePathEnum.CROP_PATH.getDesc());
 		if(!dir.exists()) {
 			dir.mkdir();
 		}
-		cropImage();*/
-		File originalPath = new File("H:\\街头篮球资料\\美化包原始图片\\1.jpg");
-		File destinationPath = new File("H:\\街头篮球资料\\美化包切图后的图片\\7.jpg");
-		ImageUtil.scale(originalPath, destinationPath, 2048, 2048, Color.WHITE);
-		System.out.println("图片缩放完成");
+		cropImage();
 	}
 
 	/**
